@@ -1,2 +1,2 @@
-# Internet Systems Programming Classes
+# PSI
 Curso de Informática para Internet
