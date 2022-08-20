@@ -1,2 +1,2 @@
 # PSI
-Curso de Informática para Internet
+Projeto George
