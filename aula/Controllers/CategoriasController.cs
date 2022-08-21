@@ -1,11 +1,11 @@
-﻿using malfatti.App_Start.Models;
-using malfatti.Models;
+﻿using malfatti.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
 using System.Web;
+using malfatti.Context;
 using System.Web.Mvc;
 
 namespace malfatti.Controllers
@@ -23,10 +23,7 @@ namespace malfatti.Controllers
         // GET: Categorias
         public ActionResult Index()
         {
-            return View(
-                //categorias
-                context.Categorias.OrderBy(c => c.Nome)
-                );
+            return View(context.Categorias.OrderBy(c => c.Nome));
         }
 
         // GET: Create

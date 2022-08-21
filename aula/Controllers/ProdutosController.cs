@@ -1,29 +1,22 @@
-﻿using malfatti.App_Start.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using System.Data.Entity;
 using malfatti.Models;
+using System.Data.Entity;
 using System.Net;
+using malfatti.Context;
 
 namespace malfatti.Controllers
 {
-    public class ProdutosController : Controller
+    public class ProdutoController : Controller
     {
         private EFContext context = new EFContext();
-        //// GET: Produtos
-        //public ActionResult Index()
-        //{
-        //    return View(context.Produtos.OrderBy(c => c.Nome));
-        //}
-
-        // GET: Produtos
+        //GET: Produtos
         public ActionResult Index()
         {
-            var produtos =
-            context.Produtos.Include(c => c.Categoria).Include(f => f.Fabricante).
+            var produtos = context.Produtos.Include(c => c.Categoria).Include(f => f.Fabricante).
             OrderBy(n => n.Nome);
             return View(produtos);
         }

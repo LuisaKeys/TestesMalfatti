@@ -1,5 +1,4 @@
-﻿using malfatti.App_Start.Models;
-using malfatti.Models;
+﻿using malfatti.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -7,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using malfatti.Context;
 
 namespace malfatti.Controllers
 {

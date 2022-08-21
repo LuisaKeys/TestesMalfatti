@@ -1,11 +1,11 @@
-﻿using malfatti.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using System.Web;
+using malfatti.Models;
+using System.Data.Entity;
 
-namespace malfatti.App_Start.Models
+namespace malfatti.Context
 {
     public class EFContext : DbContext
     {
