@@ -1,11 +1,11 @@
-﻿using aula.Models;
+﻿using malfatti.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
-namespace aula.App_Start.Models
+namespace malfatti.App_Start.Models
 {
     public class EFContext : DbContext
     {
