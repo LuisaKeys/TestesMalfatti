@@ -1,5 +1,5 @@
-﻿using aula.App_Start.Models;
-using aula.Models;
+﻿using malfatti.App_Start.Models;
+using malfatti.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -8,7 +8,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 
-namespace aula.Controllers
+namespace malfatti.Controllers
 {
     public class CategoriasController : Controller
     {
