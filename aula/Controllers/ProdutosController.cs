@@ -1,4 +1,4 @@
-﻿using aula.App_Start.Models;
+﻿using malfatti.App_Start.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Data.Entity;
 using aula.Models;
 using System.Net;
 
-namespace aula.Controllers
+namespace malfatti.Controllers
 {
     public class ProdutosController : Controller
     {
