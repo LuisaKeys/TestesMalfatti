@@ -1,2 +1,2 @@
-# PSI
-Projeto George
+# MALFATTI
+Projeto Integrador
