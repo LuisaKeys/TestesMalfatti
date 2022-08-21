@@ -9,6 +9,8 @@ namespace malfatti.Models
     {
         public long ProdutoId { get; set; }
         public string Nome { get; set; }
+        public string Descricao { get; set; }
+        public double Preco { get; set; }
         public long? CategoriaId { get; set; }
         public long? FabricanteId { get; set; }
         public Categoria Categoria { get; set; }
