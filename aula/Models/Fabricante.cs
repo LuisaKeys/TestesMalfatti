@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace aula.Models
+namespace malfatti.Models
 {
     public class Fabricante
     {
